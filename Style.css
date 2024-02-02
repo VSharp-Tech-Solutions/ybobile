@@ -1,0 +1,135 @@
+body{
+    background-image: url(bg.jpg);
+    position: relative;
+    width: 100vw
+    hight 100vh
+    background-position center;
+    background-size:cover
+}
+.icon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.logo {
+    font-family: Arial;
+    color: #9c216f;
+    font-size: 50px;
+}
+.nav {
+    width: 100vw;
+}
+.nav ul {
+    height: 40px;
+    list-style: none;
+    margin-left: 200px;
+    margin-right: 1px;
+    float: left;
+}
+.nav ul li {
+display: flex;
+float: left;
+margin-top: 70px;
+margin-left: 20px;
+}
+.navu ul li a {
+    font-size: 200px;
+    transition: 0.5s ease;
+}
+.nav ul li a :hover {
+color: darkorange;
+}
+.search {
+float: right;
+margin-top: 16px;
+margin-right: 22px;
+
+}
+.search input {
+    float: left;
+    height: 22px;
+    width: 200px;
+background: transparent;
+color: black;
+border: 3px solid rgb(17, 228, 98) ;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+padding: 4px;
+font-size: 18px;
+}
+.search input :focus{
+  outline:none;  
+}
+.search button {
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: rgb(254, 250, 38);
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+cursor: pointer;
+}
+.content {
+    font-size: 25px;
+    float: right;
+    color: rgb(250, 248, 250);
+margin-right: 70px;
+    width: 60vw;
+    padding-top: 70px;
+    padding-left: 30px;
+    
+}
+.content p {
+    font-family: Arial;
+    font-size: 18px;
+    float: left;
+    color: rgb(249, 237, 237);
+     margin-right: 80px;
+    width: 100vw;
+    padding-top: 1px;
+   
+}
+.cn-btn {
+    margin-top: 30px;
+    margin-left: 200px;
+    font-family:  sans-serif;
+    font-size: 15px;
+    width: 120px;
+    height: 32px;
+    border: none;
+    background-color: rgb(109, 17, 221);
+border-top-right-radius: 6px;
+border-bottom-left-radius: 6px;
+border-top-left-radius: 6px;
+border-bottom-right-radius: 6px;
+cursor: pointer;
+}
+.content h2{
+    color: rgb(246, 228, 34);
+    font-size: 50px;
+    margin-top: 20px;
+    float: right;
+}
+.content h3{
+    color: rgb(86, 53, 232);
+    font-size: 50px;
+    margin-top: 20px;
+    float: right;
+}
+.TRADING PRODUCTS h4{
+    -imag: url(z1.jpg);
+    margin-top: 30px;
+    margin-left: 200px;
+    font-family:  sans-serif;
+    width: 120px;
+    height: 32px;
+    border: none;
+   
+border-top-right-radius: 6px;
+border-bottom-left-radius: 6px;
+border-top-left-radius: 6px;
+border-bottom-right-radius: 6px;
+cursor: pointer;
+}
